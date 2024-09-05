@@ -7,7 +7,7 @@ const nextConfig = {
   basePath: process.env.NODE_ENV === 'production' ? '/acaReactPages' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/acaReactPages/' : '',
   webpack(config) {
-    // Grab the existing rule that handles SVG imports
+    // Grab the existing rule that handles SVG imports s
     const fileLoaderRule = config.module.rules.find((rule) =>
       rule.test?.test?.(".svg")
     );
