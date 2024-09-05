@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/acaReactPages' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/acaReactPages/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/acaReactPage' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/acaReactPage/' : '',
   webpack(config) {
     // Grab the existing rule that handles SVG imports s
     const fileLoaderRule = config.module.rules.find((rule) =>
