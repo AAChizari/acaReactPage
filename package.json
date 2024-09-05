@@ -7,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out",
-    "export": "next export"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@dotlottie/react-player": "^1.6.19",
