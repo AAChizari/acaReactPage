@@ -16,7 +16,7 @@ export const Footer = () => {
           </div>
           <nav className="flex flex-col md:flex-row items-center gap-8">
             <a
-              href="#home"
+              href="https://aachizari.github.io/aacPortfolio/#home"
               className="text-black/70 hover:text-black text-xs md:text-sm transition duration-300"
             >
               AA&AF Chizari
