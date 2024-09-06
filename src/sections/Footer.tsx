@@ -1,6 +1,3 @@
-"use client";
-
-import Image from "next/image";
 import Logo from "@/assets/logo2.svg";
 import Xing from "@/assets/socials/social-xing.svg";
 import Linkedin from "@/assets/socials/social-linkedin.svg";
@@ -14,12 +11,12 @@ export const Footer = () => {
       <div className="container mx-auto relative z-10">
         <div className="border-t border-black/15 py-6 text-sm flex flex-col lg:flex-row md:flex-row md:justify-between items-center gap-8">
           <div className="flex flex-col md:flex-row items-center gap-8">
-            <Image src={Logo} alt="Logo" className="h-6 w-6 text-black" />
+            <Logo className="h-6 w-6 text-black" />
             <div className="font-medium text-black">AAC portfolio</div>
           </div>
           <nav className="flex flex-col md:flex-row items-center gap-8">
             <a
-              href="https://aachizari.github.io/aacPortfolio/#home"
+              href="#home"
               className="text-black/70 hover:text-black text-xs md:text-sm transition duration-300"
             >
               AA&AF Chizari
@@ -33,7 +30,7 @@ export const Footer = () => {
               aria-label="LinkedIn Profil"
               className="text-black/70 hover:text-black transition duration-300 transform hover:scale-150"
             >
-              <Image src={Linkedin} alt="LinkedIn" className="w-6 h-6" />
+              <Linkedin className="w-6 h-6" />
             </a>
             <a
               href="https://www.xing.com/profile/Amir_Chizari061776/web_profiles?expandNeffi=true"
@@ -42,7 +39,7 @@ export const Footer = () => {
               aria-label="Xing Profil"
               className="text-black/70 hover:text-black transition duration-300 transform hover:scale-150"
             >
-              <Image src={Xing} alt="Xing" className="w-6 h-6" />
+              <Xing className="w-6 h- 6" />
             </a>
             <a
               href="https://github.com/AAChizari"
@@ -51,7 +48,7 @@ export const Footer = () => {
               aria-label="GitHub Profil"
               className="text-black/70 hover:text-black transition duration-300 transform hover:scale-150"
             >
-              <Image src={Github} alt="GitHub" className="w-6 h-6" />
+              <Github className="w-6 h-6" />
             </a>
           </div>
         </div>
