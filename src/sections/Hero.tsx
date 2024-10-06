@@ -36,7 +36,7 @@ export const Hero = () => {
             />
             <Text colorTitle="Amir Aschkan Chizari" className="text-center" />
             <Text
-              description="lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
+              description="Entwicklung einer App als Reaktionsmessgerät für die Ermittlung motorisch-kognitiver Fähigkeiten"
               className="text-center"
             />
           </div>
